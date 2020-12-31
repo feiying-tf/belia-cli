@@ -1,0 +1,2 @@
+# seven-cli
+cli tool
