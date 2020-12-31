@@ -11,7 +11,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 const program = require('commander');
 
 /**
- * seven commands
+ * belia commands
  *    - config
  *    - init
  */
@@ -19,15 +19,15 @@ let actionMap = {
   init: {
     // 拉取远程数据模板文件夹
     description: 'generate a new project from a template',
-    usages: ['seven init templateName projectName'],
+    usages: ['belia init templateName projectName'],
     // 用法
     alias: 'i'
   },
   config: {
     // 对配置文件里面的内容进行增删查改
     alias: 'cfg',
-    description: 'config .sevenrc',
-    usages: ['seven config set <k> <v>', 'seven config get <k>', 'seven config remove <k>']
+    description: 'config .beliarc',
+    usages: ['belia config set <k> <v>', 'belia config get <k>', 'belia config remove <k>']
   } //other commands
 
 }; // 添加 init / config 命令

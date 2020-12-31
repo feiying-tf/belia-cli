@@ -6,7 +6,7 @@ export const VERSION = version
 const HOME = process.env[process.platform === 'win32' ? 'USERPROFILE' : 'HOME']
 
 // 配置文件目录
-export const RC = `${HOME}/.sevenrc`
+export const RC = `${HOME}/.beliarc`
 
 // 默认配置
 export const DEFAULTS = {
